@@ -1,8 +1,10 @@
 *.rbc
 capybara-*.html
 .rspec
-/log
-/tmp
+/log/*
+!/log/.keep
+/tmp/*
+!/tmp/.keep
 /db/*.sqlite3
 /db/*.sqlite3-journal
 /public/system
