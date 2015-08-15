@@ -68,6 +68,6 @@ group :production do
   # Depoy on heroku.com
   gem 'rails_12factor'
   # webserver
-  gem 'unicorn'
+  gem 'puma'
 end
 
