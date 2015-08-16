@@ -2,9 +2,11 @@ language: ruby
 rvm:
   - 2.2.2
 script:
-  - RAILS_ENV=test bundle exec rspec
+  - bundle exec rspec
 before_script:
   - bundle exec rake db:migrate
+cache: 
+  - bundler
 addons:
   code_climate:
     repo_token: ff8b2e0ab8692edefd33e214d984452de10fca33809f6925778578413fbdb515

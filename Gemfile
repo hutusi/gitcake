@@ -60,6 +60,8 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'shoulda-matchers'
+  # test coverage
+  gem "codeclimate-test-reporter", require: nil
 end
 
 group :production do
